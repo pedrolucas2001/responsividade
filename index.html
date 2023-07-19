@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/paisagem.css" media="screen and (orientation:landscape)">
+    <link rel="stylesheet" href="styles/retrato.css"  media="screen and (orientation:portrait)">
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="pagina">
+        <nav>
+            <img src="images/menuIcon.svg" alt="" id="menu" onclick="mostrar()">
+            <ul id="menuOpcoes">
+                <li>Opção</li>
+                <li>Opção</li>
+                <li>Opção</li>
+                <li>Opção</li>
+                <li>Opção</li>
+            </ul>
+        </nav>
+
+        <picture>
+            <source media="(max-width: 600px)" srcset="images/mulherdancandoMenor.jpg" class="banner">
+            <img src="images/mulherdancando.jpg"  alt="mulherdancando" class="banner">
+        </picture>
+       
+        <h1>Um título bacana</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit laboriosam cupiditate mollitia expedita veritatis ipsam, vero consectetur architecto, nobis eum, sapiente sunt omnis eius repellendus ut repellat possimus doloribus earum!
+        Distinctio amet nesciunt eaque eligendi nihil reprehenderit, quis vitae excepturi inventore cumque harum, repudiandae quas, accusamus exercitationem fuga magni fugiat! Maiores, sed culpa. Voluptatum quaerat optio nesciunt qui ea quos.
+        Tempore illum ipsam, aperiam ex doloremque praesentium incidunt aliquid natus consequatur molestiae, eius quaerat vel rem! Quis, ipsum dignissimos corrupti maiores neque et rerum consequuntur nisi labore tempora sapiente voluptate?
+        Hic, earum! Reprehenderit, itaque? Ullam, repellat. Quis, tenetur molestias eum, aliquid harum incidunt consectetur fugit, quod reiciendis debitis voluptatibus nam? Ducimus harum maiores, quam tenetur recusandae doloremque. Animi, quisquam qui!
+        Minus molestiae iusto nobis eos mollitia obcaecati, ad debitis? Quo voluptate nulla exercitationem repudiandae explicabo temporibus deleniti rem pariatur iste, magnam amet nisi quos ab impedit sunt, provident doloribus perferendis?
+        </p> <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit laboriosam cupiditate mollitia expedita veritatis ipsam, vero consectetur architecto, nobis eum, sapiente sunt omnis eius repellendus ut repellat possimus doloribus earum!
+        Distinctio amet nesciunt eaque eligendi nihil reprehenderit, quis vitae excepturi inventore cumque harum, repudiandae quas, accusamus exercitationem fuga magni fugiat! Maiores, sed culpa. Voluptatum quaerat optio nesciunt qui ea quos.
+        Tempore illum ipsam, aperiam ex doloremque praesentium incidunt aliquid natus consequatur molestiae, eius quaerat vel rem! Quis, ipsum dignissimos corrupti maiores neque et rerum consequuntur nisi labore tempora sapiente voluptate?
+        Hic, earum! Reprehenderit, itaque? Ullam, repellat. Quis, tenetur molestias eum, aliquid harum incidunt consectetur fugit, quod reiciendis debitis voluptatibus nam? Ducimus harum maiores, quam tenetur recusandae doloremque. Animi, quisquam qui!
+        Minus molestiae iusto nobis eos mollitia obcaecati, ad debitis? Quo voluptate nulla exercitationem repudiandae explicabo temporibus deleniti rem pariatur iste, magnam amet nisi quos ab impedit sunt, provident doloribus perferendis?
+        </p><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit laboriosam cupiditate mollitia expedita veritatis ipsam, vero consectetur architecto, nobis eum, sapiente sunt omnis eius repellendus ut repellat possimus doloribus earum!
+        Distinctio amet nesciunt eaque eligendi nihil reprehenderit, quis vitae excepturi inventore cumque harum, repudiandae quas, accusamus exercitationem fuga magni fugiat! Maiores, sed culpa. Voluptatum quaerat optio nesciunt qui ea quos.
+        Tempore illum ipsam, aperiam ex doloremque praesentium incidunt aliquid natus consequatur molestiae, eius quaerat vel rem! Quis, ipsum dignissimos corrupti maiores neque et rerum consequuntur nisi labore tempora sapiente voluptate?
+        Hic, earum! Reprehenderit, itaque? Ullam, repellat. Quis, tenetur molestias eum, aliquid harum incidunt consectetur fugit, quod reiciendis debitis voluptatibus nam? Ducimus harum maiores, quam tenetur recusandae doloremque. Animi, quisquam qui!
+        Minus molestiae iusto nobis eos mollitia obcaecati, ad debitis? Quo voluptate nulla exercitationem repudiandae explicabo temporibus deleniti rem pariatur iste, magnam amet nisi quos ab impedit sunt, provident doloribus perferendis?
+        </p>
+    </div>
+
+    <script>
+        function mostrar(){
+            if(menuOpcoes.style.display == "none"){
+                menuOpcoes.style.display = "block"
+            } else{
+                menuOpcoes.style.display = "none"
+            }
+        }
+    </script>
+</body>
+</html>
